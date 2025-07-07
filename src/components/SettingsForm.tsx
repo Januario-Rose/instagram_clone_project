@@ -2,8 +2,7 @@
 import updateProfile from "@/actions";
 import { Profile } from "@prisma/client";
 import { Button, Switch, TextArea, TextField } from "@radix-ui/themes";
-import { url } from "inspector";
-import { UploadIcon, UserRoundIcon } from "lucide-react";
+import { UploadIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 

@@ -3,7 +3,7 @@ import { prisma } from "@/db";
 import { Follower, Profile } from "@prisma/client";
 import { Avatar } from "@radix-ui/themes";
 import LikesInfo from "./LikesInfo";
-import { BookmarkIcon, MessageCircleIcon } from "lucide-react";
+import { MessageCircleIcon } from "lucide-react";
 import Link from "next/link";
 import Bookmarks from "./Bookmarks";
 

@@ -1,10 +1,8 @@
 import { auth, signIn, signOut } from "@/auth";
-import HomeTopRow from "@/components/HomeTopRow";
 import Preloader from "@/components/Preloader";
 import UserHome from "@/components/UserHome";
 import Image from "next/image";
 import logo from "@/app/google-logo.png";
-import igLogo from "@/app/instagram-logo.webp";
 import textLogo from "@/app/ig-text-logo.png";
 import { Suspense } from "react";
 
@@ -28,9 +26,7 @@ export default async function Home() {
           await signIn('google');
         }}>
           <div className="flex flex-col items-center">
-            <Image 
-            className="size-18"
-            src={igLogo} alt=""/>
+            
             <Image 
             className="size-50 w-2/3 invert border-b-2 border-b-black"
             src={textLogo} alt=""/>

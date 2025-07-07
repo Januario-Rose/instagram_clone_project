@@ -1,10 +1,6 @@
-import { CircleArrowLeftIcon, BadgeCheckIcon, SettingsIcon, UserPlusIcon } from "lucide-react";
 import { Suspense } from "react";
 import ProfilePosts from "./ProfilePosts";
 import { Follower, Profile } from "@prisma/client";
-import Link from "next/link";
-import { Button } from "@radix-ui/themes";
-import FollowButton from "./FollowButton";
 import Preloader from "./Preloader";
 import ProfilePageInfo from "./ProfilePageInfo";
 import ProfileNav from "./ProfileNav";

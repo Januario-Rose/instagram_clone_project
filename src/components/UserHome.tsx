@@ -1,4 +1,3 @@
-import { getSessionEmailOrThrow } from "@/actions";
 import { prisma } from "@/db";
 import { Session } from "next-auth";
 import HomeTopRow from "./HomeTopRow";

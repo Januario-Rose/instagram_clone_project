@@ -1,7 +1,4 @@
-import { getSessionEmailOrThrow } from "@/actions";
-import { prisma } from "@/db";
 import ProfileImage from "./ProfileImage";
-import { profile } from "console";
 import { PlusIcon } from "lucide-react";
 import { Follower, Profile } from "@prisma/client";
 

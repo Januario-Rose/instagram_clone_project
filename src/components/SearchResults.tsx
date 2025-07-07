@@ -1,5 +1,4 @@
 import { prisma } from "@/db";
-import ProfileImage from "./ProfileImage";
 import Link from "next/link";
 import { Avatar } from "@radix-ui/themes";
 import PostGrid from "./PostGrid";

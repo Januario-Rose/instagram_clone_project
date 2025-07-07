@@ -1,5 +1,5 @@
 import Comment from "@/components/Comment";
-import { BookmarkIcon, MessageCircleIcon } from "lucide-react";
+import { MessageCircleIcon } from "lucide-react";
 import { Suspense } from "react";
 import LikesInfo from "./LikesInfo";
 import SessionCommentForm from "./SessionCommentForm";
