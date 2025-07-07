@@ -2,8 +2,8 @@ import { auth, signIn, signOut } from "@/auth";
 import Preloader from "@/components/Preloader";
 import UserHome from "@/components/UserHome";
 import Image from "next/image";
-import logo from "@/app/google-logo.png";
-import textLogo from "@/app/ig-text-logo.png";
+import logo from "@/public/google-logo.png";
+import textLogo from "@/public/ig-text-logo.png";
 import { Suspense } from "react";
 
 export default async function Home() {

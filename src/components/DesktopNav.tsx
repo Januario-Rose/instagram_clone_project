@@ -1,8 +1,8 @@
 import { CameraIcon, HomeIcon, LayoutGridIcon, SearchIcon, UserCircleIcon } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../app/ig-logo.webp";
-import textLogo from "../app/ig-text-logo.png";
+import logo from "../public/ig-logo.webp";
+import textLogo from "../public/ig-text-logo.png";
 
 export default function DesktopNav(){
     return(
