@@ -4,7 +4,7 @@ import Preloader from "@/components/Preloader";
 import UserHome from "@/components/UserHome";
 import Image from "next/image";
 import logo from "@/app/google-logo.png";
-import igLogo from "@/app/Instagram_logo_2022.svg.webp";
+import igLogo from "@/app/instagram-logo.webp";
 import textLogo from "@/app/ig-text-logo.png";
 import { Suspense } from "react";
 
